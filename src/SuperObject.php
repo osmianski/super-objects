@@ -4,6 +4,7 @@ namespace Osmianski\SuperObjects;
 
 use Osmianski\SuperObjects\Traits\LazyProperties;
 
+#[\AllowDynamicProperties]
 class SuperObject
 {
     use LazyProperties;
